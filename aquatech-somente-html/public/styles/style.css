@@ -1,0 +1,252 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header {
+  border-bottom: solid aqua 2px;
+  background-color: black;
+}
+
+.header .container .titulo {
+  color: aqua;
+}
+
+.header .navbar {
+  color: rgb(255, 187, 0);
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 187, 0);
+}
+
+
+/* BANNER */
+.banner {
+  height: 450px;
+  background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+
+.banner .container p {
+  color: white;
+  font-size: 40px;
+  width: 20%;
+}
+
+.banner .container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .container p span {
+  font-weight: bold;
+}
+
+.social {
+  background-color: beige;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+}
+
+.boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box img {
+  width: 50%;
+}
+
+.box h4 {
+  color: crimson;
+}
+
+.footer {
+  background-color: aqua;
+  height: 100px;
+  display: flex;
+}
+
+.footer .container {
+  color: white;
+  display: flex;
+  width: 500px;
+  margin-top: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer .container h4 {
+  font-weight: 100;
+  display: flex;
+}
+
+.footer .version {
+  display: flex;
+}
+
+.login {
+  background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+  height: 750px;
+  display: flex;
+}
+.login .container {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.login .container h2{
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+}
+
+.login .container span {
+  color: deeppink;
+  font-weight: bold;
+
+}
+
+.login .formulario {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.login .formulario .campo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.login .formulario .campo input {
+  width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid aqua 2px;
+  text-align: center;
+}
+
+.login .formulario button {
+  background-color: deeppink;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.cadastro {
+  background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+  height: 750px;
+  display: flex;
+}
+.cadastro .container {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+}
+
+.cadastro .container h2{
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+}
+
+.cadastro .container span {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.cadastro .formulario {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.cadastro .formulario .campo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cadastro .formulario .campo input {
+  width: 600px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid aqua 2px;
+  text-align: center;
+}
+
+.cadastro .formulario button {
+  background-color: deeppink;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.simulador {
+  background-color: beige;
+  color: black;
+  height: 750px;
+  display: flex;
+}
+
+.simulador .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
